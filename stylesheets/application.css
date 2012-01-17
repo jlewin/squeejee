@@ -102,8 +102,6 @@ body.no-project #header h1 {
   font-weight: normal;
 }
 
-
-
 /*#main-menu li.selected a,
 #main-menu li.selected:hover a {
   background: none;
@@ -132,80 +130,54 @@ body.no-project #header h1 {
 
 #main-menu li a.overview,
 #main-menu li a.overview:hover {
-  background: url(/themes/squeejee/images/fugue/document_text_image.png) 6px center no-repeat;
-  padding-left: 24px;
 }
 
 #main-menu li a.activity,
 #main-menu li a.activity:hover {
-  background: url(/themes/squeejee/images/fugue/lightning.png) 6px center no-repeat;
-  padding-left: 24px;
 }
 
 #main-menu li a.roadmap,
 #main-menu li a.roadmap:hover {
-  background: url(/themes/squeejee/images/fugue/map.png) 4px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.issues,
 #main-menu li a.issues:hover {
-  background: url(/themes/squeejee/images/fugue/ticket.png) 4px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.new-issue,
 #main-menu li a.new-issue:hover {
-  background: url(/themes/squeejee/images/fugue/ticket_plus.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.news,
 #main-menu li a.news:hover {
-  background: url(/themes/squeejee/images/fugue/newspaper.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.documents,
 #main-menu li a.documents:hover {
-  background: url(/themes/squeejee/images/fugue/documents_text.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.wiki,
 #main-menu li a.wiki:hover {
-  background: url(/themes/squeejee/images/fugue/document_horizontal_text.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.forums,
 #main-menu li a.forums:hover {
-  background: url(/themes/squeejee/images/fugue/balloons.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.files,
 #main-menu li a.files:hover {
-  background: url(/themes/squeejee/images/fugue/document_zipper.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.repository,
 #main-menu li a.repository:hover {
-  background: url(/themes/squeejee/images/fugue/safe.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.google-calendar,
 #main-menu li a.google-calendar:hover {
-  background: url(/themes/squeejee/images/fugue/calendar_month.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.settings,
 #main-menu li a.settings:hover {
-  background: url(/themes/squeejee/images/fugue/equalizer.png) 6px center no-repeat;
-  padding-left: 26px;
 }
 
 #main-menu li a.selected,
@@ -315,21 +287,21 @@ p.pourcent {
 }
 
 .icon {
-background-position: left top;
-background-repeat: no-repeat;
-padding-left: 20px;
-padding-top: 2px;
-padding-bottom: 3px;
-line-height: 16px;
-margin-left: 5px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  line-height: 16px;
+  margin-left: 5px;
 }
 
 .icon22 {
-background-position: 0% 40%;
-background-repeat: no-repeat;
-padding-left: 26px;
-line-height: 22px;
-vertical-align: middle;
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+  padding-left: 26px;
+  line-height: 22px;
+  vertical-align: middle;
 }
 
 .icon-add { background-image: url(/themes/squeejee/images/fugue/plus_small.png); }
@@ -409,76 +381,9 @@ div#quick-search a {
   background: url(/themes/squeejee/images/fugue/sticky_note.png) left top no-repeat;
 }
 
-/* Goalisitcs styles */
-
-body.cbr #header h1 {
-  background: url(/themes/squeejee/images/goalistics_logo.png) top left no-repeat;
-  width: 250px;
-  height: 60px;
-  overflow: hidden;
-  text-indent: -9999px;
-}
-
 /*body.cbr #main-menu li:hover {
   background-color: #ABD584;
   border-color: #ddfebe;
 }
 */
 
-/* Squeejee styles */
-
-body.praexis #header h1 {
-  padding-left: 60px;
-  background: url(/themes/squeejee/images/squeejee_logo.png) top left no-repeat;
-}
-
-/* Official Team Gear styles */
-
-body.otg #header h1 {
-  width: 170px;
-  height: 60px;
-  overflow: hidden;
-  text-indent: -9999px;
-  background: url(/themes/squeejee/images/otg_logo.png) top left no-repeat;
-}
-
-
-/* MindBites styles */
-
-body.mindbites #header h1 {
-  width: 200;
-  height: 60px;
-  overflow: hidden;
-  text-indent: -9999px;
-  background: url(/themes/squeejee/images/mb.png) top left no-repeat;
-}
-
-/* Blockshopper styles */
-
-body.blockshopper #header h1 {
-  width: 200;
-  height: 60px;
-  overflow: hidden;
-  text-indent: -9999px;
-  background: url(/themes/squeejee/images/blockshopper.png) top left no-repeat;
-}
-
-/* TickStart styles */
-
-body.clockwork #header h1 {
-  width: 200;
-  height: 60px;
-  overflow: hidden;
-  text-indent: -9999px;
-  background: url(/themes/squeejee/images/tickstart.png) top left no-repeat;
-}
-
-/* The Hype styles */
-
-body.hype #header h1 {
-  width: 200;
-  height: 60px;
-  overflow: hidden;
-  text-indent: -9999px;
-  background: url(/themes/squeejee/images/the_hype.png) top left no-repeat;
-}
